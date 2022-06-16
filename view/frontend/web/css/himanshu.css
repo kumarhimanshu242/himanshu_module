@@ -1,0 +1,168 @@
+/* .page-wrapper{
+    height: 1819 px;
+} */
+.column{
+    border-radius: 30px;
+}
+.form-container{
+    font-family: 'Quicksand', sans-serif;
+
+}
+.subheading{
+    line-height: 1%;
+}
+.form-heading{
+    line-height: 50%;
+    padding: 30px 0px 0px 0px;
+}
+.form-head {
+    width: 60%;
+    height: 105px;
+    background-color: rgb(247, 146, 22);
+    border-radius:20px 20px 0px 0px;
+    padding: 40px;
+}
+.main{
+    margin: auto;
+    width: 60%;
+    background-color: rgb(255, 228, 195);
+    /* height: 1px; */
+    padding: 40px;
+}
+
+#finame, #laname{
+    width: 155%;
+    height: 42px;
+    margin: 0px 30px 20px 102px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+}
+
+.single-input{
+    width: 90.6%;
+    height: 43px;
+    margin: 10px 0px 8px 101px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+}
+
+input[name="grade"], input[name="impression"]{
+    accent-color: green;
+}
+input[name="class-env[]"], input[name="highest-level[]"] {
+    accent-color: red;
+}
+
+.email, .phone-num, .date, .upload, .teacher-obs{
+    display: inline-block;
+
+}
+#email {
+    width: 131.2%;
+    height: 42px;
+    margin: 14px 5px 2px 181px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+}
+
+#phone {
+    width: 144.05%;
+    height: 42px;
+    margin: 3px 5px 2px 150px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+   
+}
+#upload{
+    margin-left: 59px;
+    background-color: white ;
+    width: 139.5%;
+    height: 27px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+}
+.dob{
+    width: 170.2%;
+    height: 27px;
+    margin: 14px 5px 2px 139px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+    background-color: white;
+}
+
+.radio-grade, .radio-impression, .name, .text{
+    display: inline-block;
+    
+}
+.radio-grade{
+    margin-top: 20px;
+}
+.grade{
+    margin-left: 142px;
+}
+
+.checkbox-envv{
+   display: inline-block;
+   margin-top: 40px;
+   
+}
+
+.envv{
+    margin-left: 68px;
+}
+
+.checkbox-highest-level{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.high-level{
+    margin-left: 68px;
+}
+
+.impression {
+    margin-left: 48px;
+}
+
+.wonderings{
+    width: 138%;
+    height: 40px;
+    margin: 14px 5px 2px 146px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(247, 146, 22);
+}
+.button{
+    display:inline-block;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#submit-btn{
+    background-color: rgb(247, 146, 22) ;
+    width: 120%;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+#reset-btn {
+    background-color: rgb(225, 192, 3);
+    width: 120%;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#submit-btn:hover {
+    background-color:rgb(242, 112, 5) ;
+}
+#reset-btn:hover {
+    background-color: rgb(216, 246, 19);
+}
+
+
